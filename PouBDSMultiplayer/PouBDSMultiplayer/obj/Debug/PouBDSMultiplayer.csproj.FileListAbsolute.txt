@@ -1,0 +1,11 @@
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\bin\Debug\PouBDSMultiplayer.exe.config
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\bin\Debug\PouBDSMultiplayer.exe
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\bin\Debug\PouBDSMultiplayer.pdb
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.csproj.AssemblyReference.cache
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.Properties.Resources.resources
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.csproj.GenerateResource.cache
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.csproj.CoreCompileInputs.cache
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.exe
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.pdb
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.FrmLogin.resources
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.MainMenu.resources
