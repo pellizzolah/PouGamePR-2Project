@@ -14,6 +14,7 @@ namespace PouBDSMultiplayer
     public partial class FrmLogin : Form
     {
         SoundPlayer clickUIPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\clickUI.wav");
+        SoundPlayer warningPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\warning.wav");
         
 
 
@@ -41,11 +42,12 @@ namespace PouBDSMultiplayer
 
             if (string.IsNullOrEmpty(txbNome.Text) || (string.IsNullOrEmpty(txbPassword.Text)))
             {
-                MessageBox.Show("Ambos os campos de nome e senha tem que ser preenchidos!");
+                warningPlayer.Play();
+                MessageBox.Show("AMBOS OS CAMPOS DO NOME E SENHA TEM QUE ESTAR PREENCHIDOS PARA EFETUAR O LOGON!");
             }
             else
             {
-                MessageBox.Show("Nome: " + txbNome.Text + "\n" + "Senha: " + txbPassword.Text);
+               // MessageBox.Show("Nome: " + txbNome.Text + "\n" + "Senha: " + txbPassword.Text);
                 MainMenu mainmenu = new MainMenu(txbNome.Text);
                 mainmenu.ShowDialog();
                 

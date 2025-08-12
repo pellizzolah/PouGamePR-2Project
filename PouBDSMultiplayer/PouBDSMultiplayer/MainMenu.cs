@@ -15,6 +15,7 @@ namespace PouBDSMultiplayer
     {
         SoundPlayer clickUIPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\clickUI.wav");
         SoundPlayer sucessLoginPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\success.wav");
+        SoundPlayer noSfxPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\no.wav");
 
         public MainMenu(string nick)
         {
@@ -41,6 +42,16 @@ namespace PouBDSMultiplayer
             Scoreboard scoreboard = new Scoreboard();
             scoreboard.ShowDialog();
             
+        }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            clickUIPlayer.Play();
+        }
+
+        private void eastereggclickPou_Click(object sender, EventArgs e)
+        {
+            noSfxPlayer.Play();
         }
     }
 }

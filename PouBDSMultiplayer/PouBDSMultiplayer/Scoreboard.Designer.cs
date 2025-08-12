@@ -35,19 +35,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(443, 9);
+            this.label1.Font = new System.Drawing.Font("Pou", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(464, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(376, 55);
+            this.label1.Size = new System.Drawing.Size(324, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "SCOREBOARD";
             // 
             // btnBackMenu
             // 
-            this.btnBackMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBackMenu.Location = new System.Drawing.Point(1100, 632);
+            this.btnBackMenu.Font = new System.Drawing.Font("Pou", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBackMenu.Location = new System.Drawing.Point(1140, 630);
             this.btnBackMenu.Name = "btnBackMenu";
-            this.btnBackMenu.Size = new System.Drawing.Size(238, 85);
+            this.btnBackMenu.Size = new System.Drawing.Size(198, 87);
             this.btnBackMenu.TabIndex = 1;
             this.btnBackMenu.Text = "Voltar ao Menu";
             this.btnBackMenu.UseVisualStyleBackColor = true;
