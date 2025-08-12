@@ -135,7 +135,7 @@
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(1203, 595);
+            this.button1.Location = new System.Drawing.Point(1203, 1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 132);
             this.button1.TabIndex = 8;
@@ -145,7 +145,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Pou", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1188, 580);
+            this.label2.Location = new System.Drawing.Point(1188, 136);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(163, 12);
             this.label2.TabIndex = 9;

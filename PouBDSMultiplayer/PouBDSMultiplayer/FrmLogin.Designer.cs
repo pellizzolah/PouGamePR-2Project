@@ -36,6 +36,8 @@
             this.lbTitle = new System.Windows.Forms.Label();
             this.txbPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnExit
@@ -53,7 +55,7 @@
             // 
             this.lbl.AutoSize = true;
             this.lbl.Font = new System.Drawing.Font("Pou", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl.Location = new System.Drawing.Point(200, 133);
+            this.lbl.Location = new System.Drawing.Point(200, 211);
             this.lbl.Name = "lbl";
             this.lbl.Size = new System.Drawing.Size(92, 30);
             this.lbl.TabIndex = 1;
@@ -62,7 +64,7 @@
             // txbNome
             // 
             this.txbNome.Font = new System.Drawing.Font("Pou", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbNome.Location = new System.Drawing.Point(166, 166);
+            this.txbNome.Location = new System.Drawing.Point(166, 247);
             this.txbNome.MaxLength = 14;
             this.txbNome.Name = "txbNome";
             this.txbNome.Size = new System.Drawing.Size(161, 34);
@@ -92,7 +94,7 @@
             // txbPassword
             // 
             this.txbPassword.Font = new System.Drawing.Font("Pou", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbPassword.Location = new System.Drawing.Point(166, 285);
+            this.txbPassword.Location = new System.Drawing.Point(166, 332);
             this.txbPassword.Name = "txbPassword";
             this.txbPassword.Size = new System.Drawing.Size(161, 34);
             this.txbPassword.TabIndex = 12;
@@ -101,11 +103,21 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Pou", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(191, 256);
+            this.label2.Location = new System.Drawing.Point(191, 303);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 26);
             this.label2.TabIndex = 13;
             this.label2.Text = "Senha";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(129, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(229, 174);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
             // 
             // FrmLogin
             // 
@@ -113,6 +125,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(223)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(515, 532);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txbPassword);
             this.Controls.Add(this.lbTitle);
@@ -126,6 +139,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pou Login Screen";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,6 +154,7 @@
         private System.Windows.Forms.Label lbTitle;
         private System.Windows.Forms.TextBox txbPassword;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

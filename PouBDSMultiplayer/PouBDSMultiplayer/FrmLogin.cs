@@ -21,6 +21,7 @@ namespace PouBDSMultiplayer
         public FrmLogin()
         {
             InitializeComponent();
+            txbPassword.UseSystemPasswordChar = true;
             
         }
 
