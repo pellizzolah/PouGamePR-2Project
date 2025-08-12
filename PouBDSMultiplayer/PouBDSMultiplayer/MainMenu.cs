@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,10 +13,14 @@ namespace PouBDSMultiplayer
 {
     public partial class MainMenu : Form
     {
+        SoundPlayer clickUIPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\clickUI.wav");
+        SoundPlayer sucessLoginPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\success.wav");
+
         public MainMenu(string nick)
         {
             InitializeComponent();
             lbPlayerNickname.Text = nick;
+            sucessLoginPlayer.Play();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -25,12 +30,14 @@ namespace PouBDSMultiplayer
 
         private void btnInformations_Click(object sender, EventArgs e)
         {
+            clickUIPlayer.Play();
             Informations info = new Informations();
             info.ShowDialog();
         }
 
         private void btnScoreboard_Click(object sender, EventArgs e)
         {
+            clickUIPlayer.Play();
             Scoreboard scoreboard = new Scoreboard();
             scoreboard.ShowDialog();
             
