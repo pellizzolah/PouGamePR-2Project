@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.btnExit = new System.Windows.Forms.Button();
             this.lbl = new System.Windows.Forms.Label();
-            this.txb = new System.Windows.Forms.TextBox();
+            this.txbNome = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.lbTitle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -63,14 +63,14 @@
             this.lbl.TabIndex = 1;
             this.lbl.Text = "Nome";
             // 
-            // txb
+            // txbNome
             // 
-            this.txb.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb.Location = new System.Drawing.Point(150, 119);
-            this.txb.MaxLength = 14;
-            this.txb.Name = "txb";
-            this.txb.Size = new System.Drawing.Size(161, 38);
-            this.txb.TabIndex = 2;
+            this.txbNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbNome.Location = new System.Drawing.Point(150, 119);
+            this.txbNome.MaxLength = 14;
+            this.txbNome.Name = "txbNome";
+            this.txbNome.Size = new System.Drawing.Size(161, 38);
+            this.txbNome.TabIndex = 2;
             // 
             // btnLogin
             // 
@@ -153,7 +153,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbTitle);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txb);
+            this.Controls.Add(this.txbNome);
             this.Controls.Add(this.lbl);
             this.Controls.Add(this.btnExit);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -172,7 +172,7 @@
 
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label lbl;
-        private System.Windows.Forms.TextBox txb;
+        private System.Windows.Forms.TextBox txbNome;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label lbTitle;
         private System.Windows.Forms.Label label1;
