@@ -29,8 +29,17 @@ namespace PouBDSMultiplayer
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            MainMenu mainmenu = new MainMenu();
-            mainmenu.ShowDialog();
+            if (string.IsNullOrEmpty(txb.Text) || (string.IsNullOrEmpty(txbPassword.Text)))
+            {
+                MessageBox.Show("Ambos os campos de nome e senha tem que ser preenchidos!");
+            }
+            else
+            {
+                MainMenu mainmenu = new MainMenu(txb.Text);
+                mainmenu.ShowDialog();
+                
+                
+            }
         }
     }
 }

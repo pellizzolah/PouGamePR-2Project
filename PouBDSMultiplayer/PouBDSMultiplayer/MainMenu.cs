@@ -12,9 +12,28 @@ namespace PouBDSMultiplayer
 {
     public partial class MainMenu : Form
     {
-        public MainMenu()
+        public MainMenu(string nick)
         {
             InitializeComponent();
+            lbPlayerNickname.Text = nick;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void btnInformations_Click(object sender, EventArgs e)
+        {
+            Informations info = new Informations();
+            info.ShowDialog();
+        }
+
+        private void btnScoreboard_Click(object sender, EventArgs e)
+        {
+            Scoreboard scoreboard = new Scoreboard();
+            scoreboard.ShowDialog();
+            
         }
     }
 }

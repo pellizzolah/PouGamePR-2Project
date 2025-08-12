@@ -46,9 +46,9 @@
             this.lbTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTitle.Location = new System.Drawing.Point(92, 34);
             this.lbTitle.Name = "lbTitle";
-            this.lbTitle.Size = new System.Drawing.Size(459, 73);
+            this.lbTitle.Size = new System.Drawing.Size(465, 73);
             this.lbTitle.TabIndex = 0;
-            this.lbTitle.Text = "Pou The Eater";
+            this.lbTitle.Text = "Pou o Comilão";
             this.lbTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnPlay
@@ -58,7 +58,7 @@
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(268, 91);
             this.btnPlay.TabIndex = 1;
-            this.btnPlay.Text = "Start Game";
+            this.btnPlay.Text = "Começar Jogo";
             this.btnPlay.UseVisualStyleBackColor = true;
             // 
             // btnScoreboard
@@ -70,6 +70,7 @@
             this.btnScoreboard.TabIndex = 2;
             this.btnScoreboard.Text = "Scoreboard";
             this.btnScoreboard.UseVisualStyleBackColor = true;
+            this.btnScoreboard.Click += new System.EventHandler(this.btnScoreboard_Click);
             // 
             // btnInformations
             // 
@@ -78,8 +79,9 @@
             this.btnInformations.Name = "btnInformations";
             this.btnInformations.Size = new System.Drawing.Size(268, 91);
             this.btnInformations.TabIndex = 3;
-            this.btnInformations.Text = "Informations";
+            this.btnInformations.Text = "Informações";
             this.btnInformations.UseVisualStyleBackColor = true;
+            this.btnInformations.Click += new System.EventHandler(this.btnInformations_Click);
             // 
             // btnExit
             // 
@@ -88,8 +90,9 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(268, 91);
             this.btnExit.TabIndex = 4;
-            this.btnExit.Text = "Exit Game";
+            this.btnExit.Text = "Sair do Jogo";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // pictureBox1
             // 
@@ -107,20 +110,21 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(130, 107);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(375, 20);
+            this.label1.Size = new System.Drawing.Size(353, 20);
             this.label1.TabIndex = 6;
-            this.label1.Text = "*A game made by Leandro Pellizzola 2º Informática*";
+            this.label1.Text = "*Jogo feito por Leandro Pellizzola 2º Informática*";
             // 
             // lbPlayerNickname
             // 
             this.lbPlayerNickname.AutoSize = true;
             this.lbPlayerNickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPlayerNickname.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lbPlayerNickname.Location = new System.Drawing.Point(656, 217);
+            this.lbPlayerNickname.Location = new System.Drawing.Point(805, 230);
             this.lbPlayerNickname.Name = "lbPlayerNickname";
-            this.lbPlayerNickname.Size = new System.Drawing.Size(507, 39);
+            this.lbPlayerNickname.Size = new System.Drawing.Size(80, 39);
             this.lbPlayerNickname.TabIndex = 7;
-            this.lbPlayerNickname.Text = "Your Nickname will appear here";
+            this.lbPlayerNickname.Text = "nick";
+            this.lbPlayerNickname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainMenu
             // 

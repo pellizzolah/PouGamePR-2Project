@@ -9,3 +9,5 @@ C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\Po
 C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.pdb
 C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.FrmLogin.resources
 C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.MainMenu.resources
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.Informations.resources
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.Scoreboard.resources
