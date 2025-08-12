@@ -11,3 +11,8 @@ C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\Po
 C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.MainMenu.resources
 C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.Informations.resources
 C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.Scoreboard.resources
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\Interop.WMLSS.dll
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\Interop.WMPNSSCI.dll
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.csproj.ResolveComReference.cache

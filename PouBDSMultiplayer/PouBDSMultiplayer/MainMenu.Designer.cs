@@ -37,6 +37,8 @@
             this.eastereggclickPou = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lbPlayerNickname = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.eastereggclickPou)).BeginInit();
             this.SuspendLayout();
             // 
@@ -128,11 +130,35 @@
             this.lbPlayerNickname.Text = "nick";
             this.lbPlayerNickname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button1
+            // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(1203, 595);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(148, 132);
+            this.button1.TabIndex = 8;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Pou", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1188, 580);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(163, 12);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "github.com/pellizzolah";
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(223)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbPlayerNickname);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.eastereggclickPou);
@@ -162,5 +188,7 @@
         private System.Windows.Forms.PictureBox eastereggclickPou;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbPlayerNickname;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
     }
 }

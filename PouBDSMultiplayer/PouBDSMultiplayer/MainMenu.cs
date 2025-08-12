@@ -8,6 +8,7 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace PouBDSMultiplayer
 {
@@ -16,12 +17,18 @@ namespace PouBDSMultiplayer
         SoundPlayer clickUIPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\clickUI.wav");
         SoundPlayer sucessLoginPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\success.wav");
         SoundPlayer noSfxPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\no.wav");
+        WindowsMediaPlayer menumusic = new WindowsMediaPlayer();
+       
 
         public MainMenu(string nick)
         {
             InitializeComponent();
             lbPlayerNickname.Text = nick;
             sucessLoginPlayer.Play();
+
+            menumusic.URL = @"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\MenuOST.mp3";
+            menumusic.settings.setMode("loop", true);
+            menumusic.controls.play();
         }
 
         private void btnExit_Click(object sender, EventArgs e)

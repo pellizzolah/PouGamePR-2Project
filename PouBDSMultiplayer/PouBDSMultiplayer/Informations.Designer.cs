@@ -62,7 +62,7 @@
             this.label2.Font = new System.Drawing.Font("Pou", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 271);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(598, 242);
+            this.label2.Size = new System.Drawing.Size(586, 242);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -81,6 +81,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(223)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(625, 761);
             this.Controls.Add(this.btnBackMenu);
             this.Controls.Add(this.label2);
