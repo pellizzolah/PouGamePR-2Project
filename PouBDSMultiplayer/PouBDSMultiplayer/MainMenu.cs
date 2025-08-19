@@ -14,6 +14,7 @@ namespace PouBDSMultiplayer
 {
     public partial class MainMenu : Form
     {
+        public int pourtxclick = 0;
         SoundPlayer clickUIPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\clickUI.wav");
         SoundPlayer sucessLoginPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\success.wav");
         SoundPlayer noSfxPlayer = new SoundPlayer(@"C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\Resources\no.wav");
@@ -58,7 +59,14 @@ namespace PouBDSMultiplayer
 
         private void eastereggclickPou_Click(object sender, EventArgs e)
         {
+            pourtxclick = pourtxclick + 1;
             noSfxPlayer.Play();
+            if(pourtxclick >= 50)
+            {
+                menumusic.controls.stop();
+                PouRtxEasterEgg pourtx = new PouRtxEasterEgg();
+                pourtx.ShowDialog();
+            }
         }
     }
 }

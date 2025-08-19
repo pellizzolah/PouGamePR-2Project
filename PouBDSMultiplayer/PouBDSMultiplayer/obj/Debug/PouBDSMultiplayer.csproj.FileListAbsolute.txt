@@ -16,3 +16,4 @@ C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\In
 C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\Interop.WMPLib.dll
 C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\Interop.WMPNSSCI.dll
 C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.csproj.ResolveComReference.cache
+C:\Users\cj3027694\source\repos\PouBDSMultiplayer\PouBDSMultiplayer\obj\Debug\PouBDSMultiplayer.PouRtxEasterEgg.resources
